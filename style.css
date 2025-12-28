@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav img {
+    color: red;
+    width: 140px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+
+}
+
+.hero> :nth-child(1) {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.hero> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero> :nth-child(3) {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.separation {
+    height: 3px;
+    background-color: #AA336A;
+}
+
+.btn {
+    padding: 3px 15px;
+    font-size: 16px;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    border: 1px solid white;
+    border-radius: 1px;
+    cursor: pointer;
+
+}
+
+.btn-red {
+    background-color: #E50914;
+    color: white;
+    padding: 3px 25px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    padding: 20px 30px;
+
+}
+
+.main input {
+    padding: 20px 30px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+
+
+}
+
+.btn-red-sm {
+    background-color: #E50914;
+    color: white;
+    padding: 5px 16px;
+    font-size: 14px;
+    border: none;
+}
+
+.Trending {
+    padding: 40px 60px;
+    background: black;
+}
+
+.Trending h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.Trending-row {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.Trending-card {
+    position: relative;
+    min-width: 180px;
+    height: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Trending-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rank {
+    position: absolute;
+    left: -15px;
+    bottom: -10px;
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+    -webkit-text-stroke: 2px white;
+    z-index: 2;
+}
