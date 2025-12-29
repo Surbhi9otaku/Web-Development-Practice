@@ -79,7 +79,10 @@ nav button {
 
 .separation {
     height: 3px;
-    background-color: #AA336A;
+    background: linear-gradient(to right, #e50914, #b81d24);
+    margin-bottom: 0;
+    margin-top: -80px;
+    box-shadow: 0 -10px 40px rgba(229, 9, 20, 0.3);
 }
 
 .btn {
@@ -147,6 +150,12 @@ nav button {
     height: 260px;
     border-radius: 10px;
     overflow: hidden;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+}
+
+.Trending-card:hover {
+    transform: scale(1.1);
+    z-index: 1;
 }
 
 .Trending-card img {
