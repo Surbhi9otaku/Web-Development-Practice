@@ -174,3 +174,115 @@ nav button {
     -webkit-text-stroke: 2px white;
     z-index: 2;
 }
+
+.reasons {
+    padding: 60px 60px;
+    background: black;
+    color: white;
+}
+
+.reasons h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.reasons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.reasons-card {
+    position: relative;
+    background: linear-gradient(135deg, #1c1b3a, #120a1a);
+    border-radius: 18px;
+    padding: 25px;
+    min-height: 260px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reasons-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.reasons-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.reasons-card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.reasons-card img {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+}
+
+.faq {
+    background: #000;
+    color: #fff;
+    padding: 60px 10%;
+}
+
+.faq h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    width: 100%;
+    background: #303030;
+    color: white;
+    border: none;
+    padding: 22px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    cursor: pointer;
+}
+
+.faq-question:hover {
+    background: #404040;
+}
+
+.footer {
+    padding: 60px 8%;
+    color: #b3b3b3;
+    background: black;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+.footer p {
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.footer-column p {
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+.footer-column p:hover {
+    text-decoration: underline;
+}
