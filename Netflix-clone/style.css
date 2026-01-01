@@ -236,7 +236,16 @@ nav button {
 }
 
 .faq-item {
+    background: #303030;
     margin-bottom: 10px;
+}
+
+.faq-item summary {
+    list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
 }
 
 .faq-question {
@@ -257,6 +266,18 @@ nav button {
     background: #404040;
 }
 
+.faq-answer {
+    background: #303030;
+    padding: 0 22px 22px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.faq-item[open] .faq-icon {
+    transform: rotate(45deg);
+}
+
+
 .footer {
     padding: 60px 8%;
     color: #b3b3b3;
@@ -269,7 +290,6 @@ nav button {
     gap: 20px;
     margin-top: 30px;
 }
-
 
 .footer p {
     margin-bottom: 20px;
