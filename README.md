@@ -25,6 +25,10 @@ THIS REPOSITORY CONTAINS BASIC WEB DEVELOPMENT PRACTICE PROJECTS.
 - **Counter Application**  
   🔗 Preview → https://surbhi9otaku.github.io/Web-Development-Practice/Counter%20Application/
 
+- **Theme-based Dynamic Text Changer**  
+  🔗 Preview →  https://surbhi9otaku.github.io/Web-Development-Practice/Theme-based%20Dynamic%20Text%20Changer/
+ 
+
 ---
 
 ⭐ This repository is created for learning and practice purposes.
