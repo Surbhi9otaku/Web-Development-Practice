@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-image: url("counter.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: lightgray;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 17px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#count {
+    font-weight: bold;
+    font-size: 60px;
+    color: whitesmoke;
+}
