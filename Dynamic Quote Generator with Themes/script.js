@@ -1,23 +1,20 @@
-console.log("Theme-based Dynamic Text Changer Application loaded successfully");
+const quotes = [
+  "Stay hungry, stay foolish.",
+  "Eat. Code. Sleep. Repeat.",
+  "Growth begins where comfort ends.",
+  "You are stronger than you think.",
+  "Discipline will take you where motivation can’t.",
+  "Build. Break. Fix. Learn.",
+  "Consistency creates results.",
+  "Dream big. Start small.",
+  "Code never lies.",
+  "Small steps every day matter."
+];
 
+const quoteText = document.getElementById("quoteText");
+const newQuoteBtn = document.getElementById("newQuoteBtn");
 const themeSelector = document.getElementById("themeSelector");
-const dynamicText = document.getElementById("dynamicText");
-const body = document.body;
 
-themeSelector.addEventListener("change", () => {
-    const selectedTheme = themeSelector.value;
-
-    body.className = "";
-
-    body.classList.add(selectedTheme);
-
-    if (selectedTheme === "light") {
-        dynamicText.innerText = "🌞 Light theme is calm and clean!";
-    }
-    else if (selectedTheme === "dark") {
-        dynamicText.innerText = "🌙 Dark theme is easy on eyes!";
-    }
-    else if (selectedTheme === "colorful") {
-        dynamicText.innerText = "🎨 Colorful theme is fun and energetic!";
-    }
-});
+function generateQuote() {
+    
+}
