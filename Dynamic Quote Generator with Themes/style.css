@@ -10,7 +10,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
     transition: background-color 0.5s ease;
 }
 
@@ -32,10 +31,10 @@ select {
 }
 
 .quote-box {
-    background: white;
+    background: pink;
     padding: 25px;
     border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 25px;
     margin-bottom: 20px;
     width: 320px;
 }
@@ -51,7 +50,7 @@ button {
     border: none;
     border-radius: 8px;
     background-color: #333;
-    color: white;
+    color:burlywood;
     cursor: pointer;
     transition: transform 0.2s ease, background 0.3s ease;
 }
@@ -73,5 +72,5 @@ button:hover {
 
 .colorful {
   background: linear-gradient(135deg, #ff7e5f, #feb47b);
-  color: white;
+  color: black;
 }

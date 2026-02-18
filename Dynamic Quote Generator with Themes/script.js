@@ -16,5 +16,14 @@ const newQuoteBtn = document.getElementById("newQuoteBtn");
 const themeSelector = document.getElementById("themeSelector");
 
 function generateQuote() {
-    
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  quoteText.textContent = quotes[randomIndex];
 }
+
+newQuoteBtn.addEventListener("click", generateQuote);
+
+themeSelector.addEventListener("change", function () {
+  document.body.className = themeSelector.value;
+});
+
+generateQuote();
