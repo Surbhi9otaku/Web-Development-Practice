@@ -52,7 +52,8 @@ button {
     background-color: #333;
     color:burlywood;
     cursor: pointer;
-    transition: transform 0.2s ease, background 0.3s ease;
+    transition: transform 0.2s ease; 
+    background: 0.3s ease;
 }
 
 button:hover {
