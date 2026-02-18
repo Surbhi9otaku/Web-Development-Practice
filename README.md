@@ -25,9 +25,6 @@ THIS REPOSITORY CONTAINS BASIC WEB DEVELOPMENT PRACTICE PROJECTS.
 - **Counter Application**  
   🔗 Preview → https://surbhi9otaku.github.io/Web-Development-Practice/Counter%20Application/
 
-
- 
-
 ---
 
 ⭐ This repository is created for learning and practice purposes.
